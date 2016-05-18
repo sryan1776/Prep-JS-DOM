@@ -6,8 +6,22 @@ createElement.id = "headline"; //creating an identifier for the 'h1' element
 createElement.innerHTML = "Welcome to Tacocat's internet page."; //adding content to the h1 element
 container.appendChild(createElement); //adds the h1 element to the container div element.
 
+var catBox = document.createElement('div');
+catBox.id = "meow";
+catBox.innerHTML = "Overcome its fear of cucumbers";
+bigBox.appendChild(catBox);
+
+
+var catBox2 = document.createElement("headline");
+catBox2.id = "purr";
+catBox2.innerHTML = "Audition for the next musical";
+bigBox.appendChild(catBox2);
+
+
 //Exercise 1: 
-/*Declare a variable named catBox and assign its value with the createElement method that will create a 'div' element. Give this 'div' element an id of "meow". 
+/*Declare a variable named catBox and assign its value with the createElement method that will create a 'div' element. 
+Give this 'div' element an id of "meow". 
+
 
 Next, add the following text inside this newly created 'div' element:
 "Overcome its fear of cucumbers!"
@@ -23,7 +37,8 @@ node.appendChild() is a method that appends a node as the last child of a node*/
 
 
 //Exercise 2
-/*Declare a variable named catBox2 and create an element of your choice.  Give your element an id of "purr".  Next assign your element with the following text:
+/*Declare a variable named catBox2 and create an element of your choice.  Give your element an id of "purr".  
+Next assign your element with the following text:
 "Audition for the next musical."
 
 Append this newly created element to the bigBox element.*/

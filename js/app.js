@@ -12,7 +12,7 @@ catBox.innerHTML = "Overcome its fear of cucumbers";
 bigBox.appendChild(catBox);
 
 
-var catBox2 = document.createElement("headline");
+var catBox2 = document.createElement("div");
 catBox2.id = "purr";
 catBox2.innerHTML = "Audition for the next musical";
 bigBox.appendChild(catBox2);
@@ -67,9 +67,12 @@ var getBuckets = ["Become more famous than that overrated fraud Garfield", "Visi
 
 	for(var i = 0; i < getBuckets.length; i++){ 
 		var bucketList = document.createElement('li'); 
-		bucketList.className= "daList"; 
+		bucketList.className = "daList"; 
 		bucketList.innerHTML = getBuckets[i]; 
-		buckets.appendChild(bucketList); }
+		buckets.appendChild(bucketList); 
+	}
+
+		
 
 
 
